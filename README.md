@@ -30,10 +30,16 @@ as well as to figure out its state (# of adults & children). In additiont they a
 such as checking of the input box or selecting from the dropdowns. Those callbacks update the state houses in <App/> and the
 updated state is passed back down to the <Room/> components to render them justly.
 
-The callbacks function by comparing the 
+The callbacks function by comparing the selected/updated room to the current number of rooms enabled("state.roomsSelected"), and 
+enabling or disabling the room + its adjacents based on whether it is more or less than the current number of rooms selected and
+whether its checkbox was un/ticked. The accompanying room info is then updated(# of adults/children) or removed.
 
+Retaining State: In order to retain state after reloads localstorage was used when the Submit button is clicked to save the 
+current state of the rooms in a json string within localstorage. After the stringified data is saved, a page reload is safe.
+Upon reload, in order to safely override the constructor's set-state, we do a conditional check to see of localstorage contains our
+key for our roomData, and if so we fetch it, parse it, and setState of w/ our roomData, which will then be passed from <App/> to the children<Room/> components to populate and render themselves accordingly.
 
-Directions:
+#Directions:
 
 -pull the project
 

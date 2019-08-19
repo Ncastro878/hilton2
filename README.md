@@ -34,8 +34,13 @@ The callbacks function by comparing the
 
 
 Directions:
+
 -pull the project
+
 -run "npm run build"
+
 -run "npm run start"
+
 -navigate to "localhost:3000/"
+
 -play with the app.

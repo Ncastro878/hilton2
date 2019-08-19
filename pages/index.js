@@ -22,9 +22,7 @@ class App extends React.Component{
     if(localStorage !== null && localStorage.roomData !== null){
       let retrievedRoomData = JSON.parse(localStorage.getItem("roomData"));
       let retrievedRoomsSelected = localStorage.roomsSelected;
-      let newRoomData = {
-        ...retrievedRoomData
-      }
+    
       this.setState({
         roomData: {
           ...retrievedRoomData

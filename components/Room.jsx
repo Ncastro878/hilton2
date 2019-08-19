@@ -78,7 +78,6 @@ function Room(props) {
       `}</style>
       </div>
     );
-
 }
 
 export default Room;

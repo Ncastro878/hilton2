@@ -36,7 +36,7 @@ whether its checkbox was un/ticked. The accompanying room info is then updated(#
 
 Retaining State: In order to retain state after reloads localstorage was used when the Submit button is clicked to save the 
 current state of the rooms in a json string within localstorage. After the stringified data is saved, a page reload is safe.
-Upon reload, in order to safely override the constructor's set-state, we do a conditional check to see of localstorage contains our
+Upon reload, in order to safely override the constructor's set-state, we do a conditional check to see if localstorage contains our
 key for our roomData, and if so we fetch it, parse it, and setState of w/ our roomData, which will then be passed from <App/> to the children<Room/> components to populate and render themselves accordingly.
 
 #Directions:

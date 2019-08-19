@@ -37,7 +37,7 @@ key for our roomData, and if so we fetch it, parse it, and setState of w/ our ro
 
 #Directions:
 
--pull the project
+-pull the project, navigate into the directory
 
 -run "npm run build"
 

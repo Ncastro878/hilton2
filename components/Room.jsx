@@ -37,7 +37,7 @@ function Room(props) {
             </div>
             <div className="input-container">
                 <label>Children</label>
-                <label>(0-17))</label>
+                <label>(0-17)</label>
                 <select 
                     disabled={disabled} 
                     onChange={(evt) => dropdownSelected(evt, roomNumber, "children")}

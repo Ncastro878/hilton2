@@ -4,18 +4,14 @@ This was very enjoyable, especially since I've been stuck on java projects for o
 Anyways, this project appeared far easier initially, but turned into the kinda project that was
 prime for bugs if you didn't keep track of your state management and handle your callbacks properly.
 
-Thus far everything seems to be handling and functioning properly. With that being said, I don't 
-want to set myself up for excuses but this was my first time using Next.js. 
-We're a little too content with our client-side rendering setup @ USAA, but this was very fun to work with.
-
 Compromises: To get up and running styling-wise with NextJS I used the provided <style jsx> element to 
 provide the styling as I went along. I prefer using SASS plugins or even an import .css stylesheet with hot-reloading,
 but due bug-fixing I devoted more time to functionality over style configuration in Next & thus stuck
-with the <style jsx> element to save time; it's a close equivalent to inline styling, I'm sure. 
+with the <style jsx> element to save time; no doubt it's inline styling's less ugly cousin. 
 
 State Management: Thus, because one of the requriement was Next.js I opted to play it safe and stick
 with React's out-of-the-box state management, such as props and Class component's state, rather than
-getting bogged down in risking botching configuration of hooking Redux into NextJS. React hooks were also tempting but I 
+getting too fancy with Redux and bogging myself down with configuration. React hooks were also tempting but I 
 decided to stay with what has been faithful: props, state, & lifecycle methods.
  
 Explanations: 

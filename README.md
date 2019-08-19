@@ -5,8 +5,8 @@ Anyways, this project appeared far easier initially, but turned into the kinda p
 prime for bugs if you didn't keep track of your state management and handle your callbacks properly.
 
 Thus far everything seems to be handling and functioning properly. With that being said, I don't 
-want to set myself up for excuses but this was my first time using Next.js, or SSR for that matter. 
-We're pretty content with client-side rendering @ USAA, but this was very fun to learn and figure out.
+want to set myself up for excuses but this was my first time using Next.js. 
+We're a little too content with our client-side rendering setup @ USAA, but this was very fun to work with.
 
 Compromises: To get up and running styling-wise with NextJS I used the provided <style jsx> element to 
 provide the styling as I went along. I prefer using SASS plugins or even an import .css stylesheet with hot-reloading,

@@ -27,7 +27,7 @@ numbered room selected), and "roomData" which is an object that maintains the dr
 
 The Room components receives all those pieces of states as props in order to determine whether each one is disabled or enabled 
 as well as to figure out its state (# of adults & children). In additiont they also receive 2 callback functions for user events
-such as checking of the input box or selecting from the dropdowns. Those callbacks update the state houses in <App/> and the
+such as checking of the input box or selecting from the dropdowns. Those callbacks update the state housed in <App/> and the
 updated state is passed back down to the <Room/> components to render them justly.
 
 The callbacks function by comparing the selected/updated room to the current number of rooms enabled("state.roomsSelected"), and 

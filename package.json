@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "expect": "^24.9.0",
-    "lodash": "^4.17.15",
+    "lodash": "^4.17.19",
     "next": "9.0.3",
     "next-redux-wrapper": "^3.0.0-alpha.3",
     "react": "16.9.0",
